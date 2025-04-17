@@ -5,7 +5,6 @@ export default function ProfileScreen() {
     const [contador, setContador] = useState(0);
     return (
         <View style={styles.container}>
-            {/* Card que envolve todo o conteúdo */}
             <View style={styles.card}>
                 <Text style={styles.title}>CONTADOR:</Text>
                 
