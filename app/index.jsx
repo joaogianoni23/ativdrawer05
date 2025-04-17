@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 14,
     color: "#666",
-    marginTop: 5
+    marginTop: 5,
+    textAlign: "center",
   },
   
 });
