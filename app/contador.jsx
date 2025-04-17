@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
-export default function ProfileScreen() {
+export default function CounterScreen() {
     const [contador, setContador] = useState(0);
     return (
         <View style={styles.container}>
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.2, 
         shadowRadius: 4, 
         elevation: 5, 
-        width: '50%', 
+        width: '70%', 
         alignItems: 'center', 
     },
     title: {
