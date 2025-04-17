@@ -18,9 +18,9 @@ export default function Layout () {
         }}
         />
         <Drawer.Screen
-        name="profile"
+        name="counter"
         options={{
-            drawerLabel: 'Perfil',
+            drawerLabel: 'Contador',
             title: '',
             // headerShown: false,
             // headerLeft: true,
