@@ -10,8 +10,6 @@ export default function Layout() {
                     options={{
                         title: "",
                         drawerLabel: "Inicio",
-                        // headerShown: false,
-                        // headerLeft: true,
                         drawerIcon: ({ size, color }) => (
                             <Ionicons name="home" size={size} color={color} />
                         ),
@@ -21,14 +19,20 @@ export default function Layout() {
                     options={{
                         title: "",
                         drawerLabel: "Contador",
-                        // headerShown: false,
-                        // headerLeft: true,
                         drawerIcon: ({ size, color }) => (
                             <Ionicons name="add-circle" size={size} color={color} />
                         ),
                     }}
                 />
-               
+                <Drawer.Screen name="calculator"
+                    options={{
+                        title: "",
+                        drawerLabel: "Calculadora",
+                        drawerIcon: ({ size, color }) => (
+                            <Ionicons name="calculator" size={size} color={color} />
+                        ),
+                    }}
+                />
             </Drawer>
         </GestureHandlerRootView>
     );
